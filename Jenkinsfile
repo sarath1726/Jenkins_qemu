@@ -1,7 +1,7 @@
 pipeline {
     agent {
         docker {
-            image 'my-docker-image' // Replace with your Jenkins container image
+            image 'jenkins-qemu' // Replace with your Jenkins container image
             args '-u root'       // Allows running QEMU
         }
     }
